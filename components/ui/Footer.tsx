@@ -1,14 +1,13 @@
 import React from "react";
+import LinkSection from "../Home/LinkSection";
 
 const Footer = () => {
   return (
     <>
       <div className="divider mt-64"></div>
-      <div className="container mx-auto flex flex-row justify-center pb-8">
-        <p className="text-center opacity-40">
-          © {new Date().getFullYear()} Amirreza Mohammadi Afzal. All rights
-          reserved.
-        </p>
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between pb-8">
+        <span className="text-center font-semibold">Amirreza Mohammadi Afzal</span>
+        <LinkSection className="mt-4 md:mt-0 justify-center md:justify-start" />
       </div>
     </>
   );
