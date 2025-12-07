@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import HeroTitle from "./HeroTitle.client";
+import LinkSection from "./LinkSection";
+
 
 const AboutSectionContent = () => {
   return (
@@ -24,6 +26,7 @@ const AboutSectionContent = () => {
           volleyball, or sketching something new. Let&apos;s build something great
           together!
         </p>
+        <LinkSection className="mt-8"/>
       </div>
       <div className="flex w-full justify-end order-1 lg:order-2">
         <Image

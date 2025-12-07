@@ -52,6 +52,20 @@ const AboutSection = () => {
           },
           "start"
         );
+        tl.fromTo(
+          "#social-link",
+          {
+            y: 100,
+            x: -200,
+            opacity: 0,
+          },
+          {
+            opacity: 1,
+            y: 0,
+            x: 0,
+          },
+          "start"
+        );
       });
       return () => mm.revert();
     },
