@@ -12,9 +12,9 @@ const LinkSection = ({ className }: { className?: string }) => {
     },
 
     {
-      href: "https://t.me/Amirm_afzal2",
-      icon: "lineicons:telegram",
-      label: "Telegram",
+      href: "https://www.linkedin.com/in/amirreza-mohammadi-afzal-295205366/",
+      icon: "lineicons:linkedin",
+      label: "Linkedin",
     },
     {
       href: "mailto:amirrrez70@gmail.com",
@@ -25,6 +25,11 @@ const LinkSection = ({ className }: { className?: string }) => {
       href: "https://leetcode.com/u/amirmAfzal/",
       icon: "hugeicons:leetcode",
       label: "LeetCode",
+    },
+    {
+      href: "https://t.me/Amirm_afzal2",
+      icon: "lineicons:telegram",
+      label: "Telegram",
     },
   ];
   return (
