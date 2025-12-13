@@ -3,11 +3,13 @@ import React from "react";
 import TalkButton from "./TalkButton";
 import ViewSkillButton from "./ViewSkillButton";
 import Image from "next/image";
+import Icon from "../ui/Icon";
+import Link from "next/link";
 
 const HeroSectionContent = () => {
   return (
-    <section className="container mx-auto grid min-h-[70vh] grid-cols-1 items-center gap-8 lg:gap-16 px-4 md:grid-cols-2 md:px-0">
-      <div className="flex flex-col order-2">
+    <section className="container mx-auto grid min-h-[70vh] grid-cols-1 items-center gap-8 px-4 md:grid-cols-2 md:px-0 lg:gap-16">
+      <div className="order-2 flex flex-col">
         <h1
           className="text-5xl leading-tight md:text-7xl md:leading-relaxed"
           id="hero-section-title"
@@ -29,13 +31,16 @@ const HeroSectionContent = () => {
         </p>
         <div className="hero-buttons mt-8 flex flex-col gap-4 sm:flex-row">
           <TalkButton />
-          <ViewSkillButton />
+          <Link download={true} target="_blank" rel="noopener noreferrer" href={"/Amirrza_mohammadi_afzal_Software_Engineer_Resume.pdf"} className="btn btn-outline btn-primary px-8 z-50">
+            <Icon icon="mynaui:download-solid" width={24} />
+            Download Resume
+          </Link>
         </div>
       </div>
       <Image
         width={1000}
         height={1000}
-        className="w-full aspect-square object-cover order-1 rounded-[50px]"
+        className="order-1 aspect-square w-full rounded-[50px] object-cover"
         src={"/images/hero.png"}
         alt=""
       />
