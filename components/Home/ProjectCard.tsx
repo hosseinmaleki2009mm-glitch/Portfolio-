@@ -5,6 +5,7 @@ import { ProjectInterface } from "@/lib/data/projects";
 
 import TalkButton from "./TalkButton";
 import Icon from "../ui/Icon";
+import Link from "next/link";
 
 const ProjectCard = (props: ProjectInterface) => {
   return (
@@ -33,15 +34,15 @@ const ProjectCard = (props: ProjectInterface) => {
           ))}
         </div>
         <TalkButton className="mt-8 w-full md:w-max" />
-         <button
-    
-     className={twMerge(
-        "btn btn-primary from-primary to-secondary px-16 z-50 mt-8 w-full md:w-max"
-      )}
-    >
-      <Icon icon="mynaui:sparkles-solid" width={24} />
-      {props.link }
-    </button>
+        <Link href={props.link}
+          target="_blank"
+          className={twMerge(
+            "btn btn-primary from-primary to-secondary px-16 z-50 mt-8 w-full md:w-max"
+          )}
+        >
+          <Icon icon="iconoir:youtube" width={24} />
+          Watch Video
+        </Link>
       </div>
       <div className="relative order-1 flex w-full items-center justify-center lg:order-2">
         <Image
