@@ -9,22 +9,17 @@ export interface ProjectInterface {
 export const projects: ProjectInterface[] = [
   
   {
-    title: "Ultimate Productivity Suite",
+    title: "Expo 2025 Ardabil event",
     description:
-      "A comprehensive browser-based productivity platform featuring a robust to-do list, integrated workout tracker, advanced note-taking capabilities, and powerful analytics. Designed to help users manage tasks, track fitness progress, organize notes, and gain actionable insights—all in one seamless experience. Built for performance, scalability, and user engagement.",
+      "Ardabil Expo 2025 stands as a premier international platform designed to showcase the vast economic potential, industrial capabilities, and rich cultural heritage of the Ardabil province. Strategically located at the crossroads of the Caucasus and Central Asia, this event focuses on fostering global partnerships in key sectors, including health tourism, advanced agriculture, and sustainable industries. By bringing together international investors, industry leaders, and policy-makers, Ardabil Expo 2025 aims to unlock new opportunities for cross-border trade and highlight the region's emergence as a strategic hub for innovation and investment in the Middle East.",
     image: "/images/projects/todoapp.png",
     tools: [
-      "Next.js",
-      "Mongoose",
-      "MongoDB",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Zustand",
-      "NextAuth",
-      "Chart.js",
-      "Socket.IO",
-      "TypeScript",
-      "Vercel",
+      "Adobe Premier Pro",
+      "Adobe After Effects",
+      "DJI Ronin rs3",
+      "Sony A7 3",
+
+  
     ],
     company: "Todo Rda",
     year: 2024,
