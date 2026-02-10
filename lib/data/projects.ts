@@ -3,6 +3,7 @@ export interface ProjectInterface {
   description: string;
   image: string;
   tools : string[];
+  link: string;
   company: string;
   year: number;
 }
@@ -21,6 +22,7 @@ export const projects: ProjectInterface[] = [
 
   
     ],
+    link: "https://www.youtube.com/watch?v=MIg0dMWOLR4",
     company: "Todo Rda",
     year: 2024,
   },
@@ -40,6 +42,7 @@ export const projects: ProjectInterface[] = [
       "Cloudinary",
       "Figma",
     ],
+       link: "",
     company: "Mixord",
     year: 2025,
   },
@@ -60,6 +63,7 @@ export const projects: ProjectInterface[] = [
       "TypeScript",
       "Framer Motion",
     ],
+       link: "",
     company: "Group100",
     year: 2023,
   },

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import { twMerge } from "tailwind-merge";
 import { ProjectInterface } from "@/lib/data/projects";
 
 import TalkButton from "./TalkButton";
@@ -32,6 +32,15 @@ const ProjectCard = (props: ProjectInterface) => {
           ))}
         </div>
         <TalkButton className="mt-8 w-full md:w-max" />
+         <button
+    
+     className={twMerge(
+        "btn btn-primary from-primary to-secondary px-16 z-50 mt-8 w-full md:w-max"
+      )}
+    >
+      <Icon icon="mynaui:sparkles-solid" width={24} />
+      {props.link }
+    </button>
       </div>
       <div className="relative order-1 flex w-full items-center justify-center lg:order-2">
         <Image
