@@ -20,6 +20,11 @@ const LinkSection = ({ className }: { className?: string }) => {
       icon: "lineicons:telegram",
       label: "Telegram",
     },
+        {
+      href: "https://www.youtube.com/@ihossein-mld",
+      icon: "iconoir:youtube",
+      label: "YouTube",
+    },
   ];
   return (
     <div className={twMerge("flex flex-row flex-wrap gap-2", className)}>
