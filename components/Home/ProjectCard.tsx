@@ -4,6 +4,7 @@ import { twMerge } from "tailwind-merge";
 import { ProjectInterface } from "@/lib/data/projects";
 
 import TalkButton from "./TalkButton";
+import Icon from "../ui/Icon";
 
 const ProjectCard = (props: ProjectInterface) => {
   return (
