@@ -35,7 +35,7 @@ export const projects: ProjectInterface[] = [
       "Adobe Premier Pro",
       "Adobe After Effects",
       "DJI Ronin rs3",
-      "Sony fx-3",
+      "Sony A7 3",
 
     ],
        link: "",
