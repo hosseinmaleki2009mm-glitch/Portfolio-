@@ -18,7 +18,7 @@ const AboutSectionContent = () => {
 <<<<<<< HEAD
           Hi, I&apos;m  Hossein, a creative content creator with over 3 years of experience in capturing and crafting compelling stories. From professional cinematography to advanced AI-driven editing<br /> I bring ideas to life with precision and passion
 =======
-          Hi, I&apos;m  Amir Hossein, a creative content creator with over 3 years of experience in capturing and crafting compelling stories. From professional cinematography to advanced AI-driven editing<br /> I bring ideas to life with precision and passion.
+          Hi, I&apos;m  Hossein, a creative content creator with over 3 years of experience in capturing and crafting compelling stories. From professional cinematography to advanced AI-driven editing<br /> I bring ideas to life with precision and passion.
 >>>>>>> 079a397cd7df132b72fae1083f8a5f8f6f0a214b
         </p>
         <LinkSection className="mt-8"/>
